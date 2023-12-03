@@ -25,3 +25,5 @@ replay_pid*
 
 # VSCode resources
 .vscode
+
+inputs/*.prod
