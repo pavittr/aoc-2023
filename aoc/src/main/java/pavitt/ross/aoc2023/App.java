@@ -6,6 +6,7 @@ import pavitt.ross.aoc2023.day5.Day5;
 import pavitt.ross.aoc2023.day6.Day6;
 import pavitt.ross.aoc2023.day7.Day7;
 import pavitt.ross.aoc2023.day8.Day8;
+import pavitt.ross.aoc2023.day9.Day9;
 class App {
     public static void main(String[] args) throws IOException {
         // Day1 d1 = new Day1();
@@ -52,12 +53,18 @@ class App {
         // System.out.println("Part 1: " + d7.part1("inputs/day7.prod"));
         // System.out.println("Part 2: " + d7.part2("inputs/day7.test"));
         // System.out.println("Part 2: " + d7.part2("inputs/day7.prod"));
-        Day8 d8 = new Day8();
-        System.out.println("Part 1: " + d8.part1("inputs/day8.test"));
-        System.out.println("Part 1: " + d8.part1("inputs/day8.test2"));
-        System.out.println("Part 1: " + d8.part1("inputs/day8.prod"));
-        System.out.println("Part 2: " + d8.part2("inputs/day8_p2.test"));
-        System.out.println("Part 2: " + d8.part2("inputs/day8.prod"));
+        // Day8 d8 = new Day8();
+        // System.out.println("Part 1: " + d8.part1("inputs/day8.test"));
+        // System.out.println("Part 1: " + d8.part1("inputs/day8.test2"));
+        // System.out.println("Part 1: " + d8.part1("inputs/day8.prod"));
+        // System.out.println("Part 2: " + d8.part2("inputs/day8_p2.test"));
+        // System.out.println("Part 2: " + d8.part2("inputs/day8.prod"));
+
+        Day9 d9 = new Day9();
+        System.out.println("Part 1: " + d9.part1("inputs/day9.test"));
+        System.out.println("Part 1: " + d9.part1("inputs/day9.prod"));
+        System.out.println("Part 2: " + d9.part2("inputs/day9.test"));
+        System.out.println("Part 2: " + d9.part2("inputs/day9.prod"));
     }
 
 }
