@@ -5,12 +5,8 @@ import java.io.IOException;
 import pavitt.ross.aoc2023.day5.Day5;
 import pavitt.ross.aoc2023.day6.Day6;
 import pavitt.ross.aoc2023.day7.Day7;
-
-/**
- * Hello world!
- *
- */
-public class App {
+import pavitt.ross.aoc2023.day8.Day8;
+class App {
     public static void main(String[] args) throws IOException {
         // Day1 d1 = new Day1();
         // System.out.println("Part 1:" + d1.part1("inputs/day1.test"));
@@ -51,11 +47,17 @@ public class App {
         // System.out.println("Part 1: " + d6.part1("inputs/day6.prod"));
         // System.out.println("Part 2: " + d6.part2("inputs/day6.test"));
         // System.out.println("Part 2: " + d6.part2("inputs/day6.prod"));
-        Day7 d7 = new Day7();
-        System.out.println("Part 1: " + d7.part1("inputs/day7.test"));
-        System.out.println("Part 1: " + d7.part1("inputs/day7.prod"));
-        System.out.println("Part 2: " + d7.part2("inputs/day7.test"));
-        System.out.println("Part 2: " + d7.part2("inputs/day7.prod"));
+        // Day7 d7 = new Day7();
+        // System.out.println("Part 1: " + d7.part1("inputs/day7.test"));
+        // System.out.println("Part 1: " + d7.part1("inputs/day7.prod"));
+        // System.out.println("Part 2: " + d7.part2("inputs/day7.test"));
+        // System.out.println("Part 2: " + d7.part2("inputs/day7.prod"));
+        Day8 d8 = new Day8();
+        System.out.println("Part 1: " + d8.part1("inputs/day8.test"));
+        System.out.println("Part 1: " + d8.part1("inputs/day8.test2"));
+        System.out.println("Part 1: " + d8.part1("inputs/day8.prod"));
+        System.out.println("Part 2: " + d8.part2("inputs/day8_p2.test"));
+        System.out.println("Part 2: " + d8.part2("inputs/day8.prod"));
     }
 
 }
