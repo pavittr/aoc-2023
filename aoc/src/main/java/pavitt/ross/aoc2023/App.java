@@ -78,10 +78,10 @@ class App {
         // Day11 d11 = new Day11();
         // System.out.println("Part 1: " + d11.part1("inputs/day11.test"));
         //  System.out.println("Part 1: " + d11.part1("inputs/day11.prod"));
-        Day12 d12 = new Day12();
+       // Day12 d12 = new Day12();
         // System.out.println("Part 1: " + d12.part1("inputs/day12.test"));
         // System.out.println("Part 1: " + d12.part1("inputs/day12.prod"));
-        System.out.println("Part 1: " + d12.part2("inputs/day12.test"));
+       // System.out.println("Part 1: " + d12.part2("inputs/day12.test"));
 
         
     }
